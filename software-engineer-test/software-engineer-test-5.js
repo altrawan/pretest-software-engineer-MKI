@@ -49,7 +49,6 @@ const arr = [
       name: 'D',
     },
   },
-
   {
     session_id: 1,
     time: '09:00',
@@ -75,7 +74,6 @@ const arr = [
       name: 'A',
     },
   },
-
   {
     session_id: 1,
     time: '09:00',

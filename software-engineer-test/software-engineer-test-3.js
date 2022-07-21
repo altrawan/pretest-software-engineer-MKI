@@ -1,7 +1,7 @@
 // Find missing number from the list
 const arr = [9, 6, 4, 2, 3, 5, 7, 0, 1];
 
-const findMissing = (arr) => {
+function findMissing(arr) {
   let missArr = [];
   let l = Math.max(...arr);
   let startsWithZero = arr.indexOf(0) > -1 ? 0 : 1;

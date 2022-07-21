@@ -1,5 +1,5 @@
 // Remove key that have null or undefined value
-const data = [
+const arr = [
   {
     session_name: 'first test',
     classes: [
@@ -27,3 +27,15 @@ const data = [
     ],
   },
 ];
+
+function removeUndefinedOrNullValue(key, value) {
+  if (value === null || value === undefined) {
+    return undefined;
+  }
+
+  return value;
+}
+
+let cleanedObject = JSON.stringify(arr, removeUndefinedOrNullValue, 4);
+
+console.log(cleanedObject);
