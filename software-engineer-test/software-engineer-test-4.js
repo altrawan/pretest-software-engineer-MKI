@@ -1,0 +1,1 @@
+const arr = ['flower', 'flow', 'flight'];
